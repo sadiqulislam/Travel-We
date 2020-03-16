@@ -41,4 +41,7 @@ def index(req):
     dest6.name = "Foy's Lake"
     dest6.desc = "Place Of Enjoy"
     dest6.price = "6000"
-    return render(req, 'index.html', {'dest1': dest1, 'dest2': dest2, 'dest3': dest3, 'dest4': dest4, 'dest5': dest5, 'dest6':dest6})
+
+    dests = [dest1, dest2, dest3, dest4, dest5, dest6]
+
+    return render(req, 'index.html', {'dests': dests})

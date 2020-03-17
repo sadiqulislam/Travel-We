@@ -4,6 +4,7 @@
     <list default="true" id="cad44820-11c8-48a8-b433-9f014b1da2dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python-Practice-All--master/Python-Practice-All--master" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,6 +49,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1584457766261">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584457766261" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584372529034">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -4,6 +4,7 @@
 <title>Travel| We</title>
 
 	{% load static %}
+	{% static 'images' as baseUrl %}
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -255,8 +256,12 @@
 						{% for dest in dests %}
 						<div class="destination item">
 							<div class="destination_image">
-								<img src="{% static 'images/destination_1.jpg' %}" alt="">
+								<img src="{{baseUrl}}/{{dest.img}}" alt="">
+
+								{% if dest.offer == True %}
 								<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
+
+								{% endif %}
 							</div>
 							<div class="destination_content">
 								<div class="destination_title"><a href="destinations.html">{{ dest.name }}</a></div>

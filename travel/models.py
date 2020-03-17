@@ -10,3 +10,4 @@ class Destination:
     name: str
     desc: str
     price: str
+    offer: bool
